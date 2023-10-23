@@ -1,0 +1,135 @@
+[
+    {
+        "my_msg":"مرحبا",
+        "bot_answer":"مرحبا صديقي"
+    },
+    {
+        "my_msg":"كيف حالك",
+        "bot_answer":"نحمد الله"
+    },
+    {
+        "my_msg":"انواع البيانات في بايثون",
+        "bot_answer": "انواع البيانات هي الأعداد ،النصوص والرموز، بيانات منطقية"
+    },
+    {
+        "my_msg":"امثلة على الاعداد الصحيحة",
+        "bot_answer": "int =  90000, 0,999,12"
+    },
+    {
+        "my_msg":"امثلة على الاعداد الحقيقية",
+        "bot_answer": "float = 3.0, -90.50, 0.03"
+    },
+    {
+        "my_msg":"امثلة على النصوص",
+        "bot_answer": "str = ''اهلا بك، مرحبا، كيف حالك، ما اسمك ''"
+    },
+    {
+        "my_msg":"امثلة على البيانات المنطقية",
+        "bot_answer": "bool = true, false"
+    },
+    {
+        "my_msg":"مثال لجمع عددين",
+        "bot_answer": "print(''x: الرجاء إدخال قيمة'')                      x = int(input())                        print('':y الرجاء إخال قيمة'')                      y = int(input())                              Total = x + y                           print(Total, ''يساوي y و x  مجموع'')"
+    },
+    {
+        "my_msg":"المعاملات الرياضية",
+        "bot_answer": "+, -, *, /, **,                                        وهي تُستخدم لإجراء العمليات الحسابية: الجمع، الطرح، الضرب، القسمة، وما إلى ذلك"
+        
+    },
+    {
+        "my_msg":"معاملات الاسناد",
+        "bot_answer": "=, +=, -=, *=, /=                                      وهي تُستخدم لإسناد قيمة للمتغيرات"
+    },
+    {
+        "my_msg":"معاملات الإسناد",
+        "bot_answer": "=, +=, -=, *=, /=                                      وهي تٌستخدم لإسناد قيمة للمتغيرات"
+    },
+    {
+        "my_msg":"المعاملات الشرطية",
+        "bot_answer": "<, >, ==, <=, >=, !=,                                  تُستخدم في مقارنة القيم أثناء كتابة الجمل الشرطية"
+    },
+    {
+        "my_msg":"المعاملات المنطقية",
+        "bot_answer": "and, or, not                                           تُستخدم لفحص أكثر من شرط في جملة شرطية واحدة، وأيضاً لفحص نقيض الشرط"
+    },
+    {
+        "my_msg":"+",
+        "bot_answer": " 2+4 تستخدم في الجمع مثال "
+    },
+    {
+        "my_msg":"-",
+        "bot_answer": " 6-4 تستخدم في الطرح مثال "
+    },
+    {
+        "my_msg":"*",
+        "bot_answer": " 2*4 تستخدم في الضرب مثال "
+    },
+    {
+        "my_msg":"/",
+        "bot_answer": " 2/4 تستخدم في القسمة مثال "
+    },
+    {
+        "my_msg":"**",
+        "bot_answer": " تستخدم للتعبير عن الأس في الرياضيات "
+    },
+    {
+        "my_msg":"مثال عن المعاملات الرياضية",
+        "bot_answer": " x=a**2+2*a*b+b**2"
+    },
+    {
+        "my_msg":"=",
+        "bot_answer": " احدى معاملات الإسناد  وتعني اسناد القيمة مثال        s =x + y "
+    },
+    {
+        "my_msg":"+=",
+        "bot_answer": " جمع واسناد القيمة وهي من معاملات الإسناد مثال        x += y"
+    },
+    {
+        "my_msg":"-=",
+        "bot_answer": " طرح واسناد القيمة وهي من معاملات الإسناد مثال        x -= y"
+    },
+    {
+        "my_msg":"*=",
+        "bot_answer": " ضرب واسناد القيمة وهي من معاملات الإسناد مثال        x *= y"
+    },
+    {
+        "my_msg":"/=",
+        "bot_answer": " قسمة واسناد القيمة وهي من معاملات الإسناد مثال        x /= y"
+    },
+    {
+        "my_msg":"استيراد نموذج السلحفاة",
+        "bot_answer": " from turtle import*                                      miniTurtle=Turtle()"
+    },
+    {
+        "my_msg":"امثلة عن الاشكال التي يمكن استخدامها في نموذج السلحفاة",
+        "bot_answer": " miniTurtle.shape(''arrow'') سهم                         miniTurtle.shape(''circle'') دائرة                            miniTurtle.shape(''square'') مربع       miniTurtle.shape(''triangle'') مثلث                          miniTurtle.shape(''turtle'') سلحفاة                        miniTurtle.shape(''classic'') تقليدي "
+    },
+    {
+        "my_msg":"تغيير لون وحجم السلحفاة",
+        "bot_answer": " from turtle import*                         miniTurtle=Turtle()                           miniTurtle.shape(''turtle'')                             miniTurtle.color(''green'')                    miniTurtle.shapesize(2)"
+    },
+    {
+        "my_msg":"الوظائف المستخدمة في الرسم",
+        "bot_answer": " لتحريك السلحفاة للأمام  forward()          لتحريك السلحفاة إلى الخلف backward()        لتحريك السلحفاة جهة اليمين right()             لتحريك السلحفاة جهة اليسار left()                x,y تحرك السلحفاة إلى احداثيات  goto()        pendown()                                      خفض القلم بحيث ترسم السلحفاة خط                        penup()                                           رفع القلم بحيث تتحرك السلحفاة دون رسم                             اخفاء السلحفاة  hideturtle()                "
+    },
+    {
+        "my_msg":"رسم خط",
+        "bot_answer": " from turtle import*                         miniTurtle=Turtle()                           miniTurtle.shape(''turtle'')                       miniTurtle.color(''green'')                           miniTurtle.shapesize(2)                         miniTurtle.forward(70)"
+    },
+    {
+        "my_msg":"رسم مربع",
+        "bot_answer": "from turtle import*                 miniTurtle=Turtle()           miniTurtle.shape(''turtle'')           miniTurtle.color(''green'')             miniTurtle.shapesize(2)              miniTurtle.forward(70)                 miniTurtle.left(90)          miniTurtle.forward(70)                   miniTurtle.left(90)                 miniTurtle.forward(70)                  miniTurtle.left(90)                  miniTurtle.forward(70)"
+    },
+    {
+        "my_msg":"رسم مثلث",
+        "bot_answer": " from turtle import*         miniTurtle=Turtle()          miniTurtle.shape(''turtle'')          miniTurtle.color(''green'')           miniTurtle.shapesize(2)       miniTurtle.forward(100)           miniTurtle.left(120)       miniTurtle.forward(100)      miniTurtle.left(120)          miniTurtle.forward(100) "
+    },
+    {
+        "my_msg":"رسم دائرة",
+        "bot_answer": " from turtle import*     miniTurtle=Turtle()       miniTurtle.shape(''turtle'')         miniTurtle.color(''green'')           miniTurtle.shapesize(2)         miniTurtle.circle(50)"
+    }
+
+
+
+]
+
